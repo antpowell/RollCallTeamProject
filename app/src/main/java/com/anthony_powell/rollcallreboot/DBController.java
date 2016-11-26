@@ -1,10 +1,12 @@
 package com.anthony_powell.rollcallreboot;
 
+import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.text.Layout;
 import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -41,14 +43,17 @@ public class DBController  {
 
     }
 
-    public void createUserWithEmail(final Layout layout){
-        mAuth.createUserWithEmailAndPassword(dbEmail, dbPassword).addOnCompleteListener(c, new OnCompleteListener<AuthResult>() {
+    public void createUserWithEmail(){
+        mAuth.createUserWithEmailAndPassword(dbEmail, dbPassword).addOnCompleteListener((Activity) c, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
 
 
                 if(!task.isSuccessful()){
-                    Snackbar.make(layout,"Authentication failed", Snackbar.LENGTH_SHORT ).show();
+                    Toast.makeText(c, "Authentication failed", Toast.LENGTH_SHORT).show();
+//                    Snackbar.make(layout,"Authentication failed", Snackbar.LENGTH_SHORT ).show();
+                }else{
+
                 }
 
             }

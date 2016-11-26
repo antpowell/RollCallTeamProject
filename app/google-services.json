@@ -1,79 +1,27 @@
 {
   "project_info": {
-    "project_number": "1055322073349",
-    "firebase_url": "https://test-project-75d8b.firebaseio.com",
-    "project_id": "test-project-75d8b",
-    "storage_bucket": "test-project-75d8b.appspot.com"
+    "project_number": "664889118882",
+    "firebase_url": "https://rollcallteamproject-e2e4d.firebaseio.com",
+    "project_id": "rollcallteamproject-e2e4d",
+    "storage_bucket": "rollcallteamproject-e2e4d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1055322073349:android:373b7db8932b7055",
-        "android_client_info": {
-          "package_name": "com.anthony_powell.listmaker"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1055322073349-s3echvohsskihjtu8tj7j66dki6u90c9.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.anthony_powell.listmaker",
-            "certificate_hash": "056F55A7DE02A3665EC0AE496A3C5D176C56B48D"
-          }
-        },
-        {
-          "client_id": "1055322073349-tpdqiqr6ibj3ivof2tlq3frc5pbggnrf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBonjeYIRBuTlRa1VQpIsahyfP6BNolRnY"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1055322073349-tpdqiqr6ibj3ivof2tlq3frc5pbggnrf.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1055322073349:android:7a216d3422d7cbbb",
+        "mobilesdk_app_id": "1:664889118882:android:7a216d3422d7cbbb",
         "android_client_info": {
           "package_name": "com.anthony_powell.rollcallreboot"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1055322073349-97hkv3he3slug44tqal8v6fv7q7ie61g.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.anthony_powell.rollcallreboot",
-            "certificate_hash": "152466B985D192D1BE3AAB3C53463780206F13BB"
-          }
-        },
-        {
-          "client_id": "1055322073349-tpdqiqr6ibj3ivof2tlq3frc5pbggnrf.apps.googleusercontent.com",
+          "client_id": "664889118882-asr5vl9om362ei61vabit1h6hsuhflej.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBonjeYIRBuTlRa1VQpIsahyfP6BNolRnY"
+          "current_key": "AIzaSyAv2o8BHUoQadBj_ilqpj9M7c7F3iRdN5Q"
         }
       ],
       "services": {
@@ -81,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1055322073349-tpdqiqr6ibj3ivof2tlq3frc5pbggnrf.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2
