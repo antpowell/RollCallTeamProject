@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RollCallReboot.iml" filepath="$PROJECT_DIR$/RollCallReboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RollCallTeamProject.iml" filepath="$PROJECT_DIR$/RollCallTeamProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
